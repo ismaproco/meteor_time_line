@@ -1,1 +1,14 @@
 /* CSS declarations go here */
+body { 
+    padding-top: 70px; 
+    background-color: #99cccc;
+}
+
+/* navbar styling */
+.navbar-star {
+
+}
+
+.navbar-star a {
+    color: #fff;
+}
