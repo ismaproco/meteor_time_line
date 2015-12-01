@@ -1,18 +1,11 @@
 if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault('counter', 0);
-
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get('counter');
-    }
-  });
-
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
+  $(window).on("scroll", function() {
+      if($(window).scrollTop() > 300) {
+          $(".navbar").addClass("active");
+      } else {
+          //remove the background property so it comes transparent again (defined in your css)
+         $(".navbar").removeClass("active");
+      }
   });
 }
 
