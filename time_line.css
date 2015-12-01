@@ -1,6 +1,5 @@
 /* CSS declarations go here */
 body { 
-    padding-top: 70px; 
     background-color: #99cccc;
 }
 
@@ -11,4 +10,32 @@ body {
 
 .navbar-star a {
     color: #fff;
+}
+
+.active {
+    background-color: rgba(61, 57, 57, 0.5);
+}
+
+/* Background Styling */
+
+.background-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+    top: 100%;
+}
+.blue {
+    background-color: blue;    
+    top: 200%;
+}
+.purple {
+    background-color: purple;    
+    top: 300%;
 }
